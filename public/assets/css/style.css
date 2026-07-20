@@ -1,0 +1,76 @@
+/* =======================================
+    Estililo padrão de todas as páginas 
+ ======================================= */
+
+ 
+/* ==== ESTILIZAÇÃO DO CABEÇALHO === */
+
+ /* Título do site */
+#titulo-site, h3 {
+    font-family: 'Jomhuria';
+    font-size: 4rem;
+}
+
+/* Menu de navegação */
+#menu {
+    gap: 2rem;
+    font-size: x-large;
+    text-decoration: none;
+}
+#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* === ESTILIZAÇÃO DO RODAPÉ === */
+
+/* Títulos do rodapé */
+.titulo-rodape {
+    font-family: montserrat;
+    font-weight: 800;
+}
+
+/* Menu de navegação do rodapé */
+#titulo-inicio {
+    padding-left: 2rem;
+}
+#lista-rodape {
+    list-style: none;
+    text-align: center;
+}
+#lista-rodape a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* === MEDIA QUERIES === */
+
+@media (max-width: 767px) {
+
+    /* Informações do Projeto */
+    #sobre-o-projeto {
+        padding-right: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    #lista-rodape,
+    #titulo-inicio {
+        padding-right: 2rem;
+    }
+
+    /* Informações do Desenvolvedor */
+    #sobre-mim {
+        padding-right: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Imagem do Formulário */
+    #imagem-form img {
+        display: none;
+    }
+}
+
+
+
