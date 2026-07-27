@@ -6,7 +6,11 @@
     <title>Destaka BH</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
@@ -31,6 +35,127 @@
 
     <!-- Conteúdo Principal da Página -->
     <main>
+
+        <!-- Seção de Destaques -->
+        <section id="destaque">
+
+            <!-- Carrossel com os destaques via Bootstrap -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators" id="carousel-indicators"></div>
+                <div class="carousel-inner" id="carousel-inner"></div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+
+        <!-- Seção de Eventos -->
+        <section id="eventos" class="container py-5 border-top">
+
+            <!-- Div com título da seção -->
+            <div class="text-center mb-5">
+                <!-- Título da seção -->
+                <h3 class="h1" style="font-family: 'Jomhuria';">CONFIRA ALGUNS EVENTOS</h3>
+            </div>
+
+            <!-- Div com conteúdo da seção -->
+            <div id="eventos-container" class="row g-4"></div>
+            <div class="text-center mt-5">
+                <a href="" id="btn-ver-mais" class="btn btn-outline-primary btn-lg rounded-pill px-5" style="display: none;">
+                    <i class="fa fa-calendar me-2"></i> Ver mais eventos <!-- Botão de ver mais eventos inicialmente oculto -->
+                </a>
+            </div>
+
+        </section>
+
+        <!-- Seção de cadastro -->
+        <section id="cadastro" class="container py-5">
+
+            <!-- Div principal com conteúdo da seção -->
+            <div class="row align-items-start bg-light rounded shadow-sm overflow-hidden">
+
+                <!-- Div com imagem ilustrativa da seção de cadastro -->
+                <div class="col-md-6 px-0 d-none d-md-block" style="min-height:600px;">
+                    <img src="assets/img/imagem-form.jpg" class="img-fluid h-100 w-100" style="object-fit: cover; min-height: 600px;" alt="Cadastro">
+                </div>
+
+                <!-- Div com conteúdo do formulário -->
+                <div class="col-md-6 p-5">
+
+                    <!-- Título da seção -->
+                    <h3 class="mb-4 text-center" style="font-family: 'Jomhuria'; font-size: 2.5rem;">Cadastre seu evento</h3>
+
+                    <!-- Alerta feedback formulário -->
+                    <div id="alerta-form" class="alert d-none mb-3" role="alert"></div>
+
+                    <!-- Conteúdo do Formulário -->
+                    <form id="form-evento">
+                        <div class="mb-3">
+                            <!-- Nome do evento -->
+                            <input type="text" id="ev-titulo" class="form-control rounded-pill" placeholder="Nome do evento *" required>
+                        </div>
+                        <div class="mb-3">
+                            <!-- Endereço do evento -->
+                            <input type="text" id="ev-local" class="form-control rounded-pill" placeholder="Local (endereço completo) *" required>
+                        </div>
+                        <div class="row g-2 mb-3">
+                            <!-- Data do evento -->
+                            <div class="col">
+                                <input type="date" id="ev-data" class="form-control rounded-pill" required>
+                            </div>
+                            <!-- Horário do Evento -->
+                            <div class="col">
+                                <input type="time" id="ev-horario" class="form-control rounded-pill" required>
+                            </div>
+                        </div>
+                        <!-- Categoria do evento (Seleção de categorias cadastradas no banco de dados)-->
+                        <div class="mb-3">
+                            <select id="ev-categoria" class="form-select rounded-pill" required>
+                                <option value="">Selecione a categoria *</option>
+                            </select>
+                        </div>
+                        <!-- Valor do ingresso/entrada -->
+                        <div class="mb-3">
+                            <input type="text" id="ev-valor" class="form-control rounded-pill" placeholder="Valor (ex: A partir de R$ 50,00 / Gratuito)">
+                        </div>
+                        <!-- Descrição curta para card do evento -->
+                        <div class="mb-3">
+                            <input type="text" id="ev-descricao-curta" class="form-control rounded-pill" placeholder="Descrição curta (máx. 100 caracteres) *" maxlength="100" required>
+                        </div>
+                        <!-- Descricão completa para página de detalhes do evento -->
+                        <div class="mb-3">
+                            <textarea id="ev-descricao-completa" class="form-control" rows="3" placeholder="Descrição completa do evento" style="border-radius:1rem;"></textarea>
+                        </div>
+                        <!-- Tags do evento -->
+                        <div class="mb-3">
+                            <input type="text" id="ev-tags" class="form-control rounded-pill" placeholder="Tags separadas por vírgula (ex: show, música, rock)">
+                        </div>
+                        <!-- Link para compra dos ingressos -->
+                        <div class="mb-3">
+                            <input type="url" id="ev-link" class="form-control rounded-pill" placeholder="Link para ingressos (opcional)">
+                        </div>
+                        <!-- Imagem do evento -->
+                        <div class="mb-4">
+                            <label class="form-label small ms-2">Imagem do evento:</label>
+                            <input type="file" id="ev-imagem" class="form-control rounded-pill" accept="image/*">
+                        </div>
+
+                        <!-- Butão para envio do formulário -->
+                        <button type="submit" class="btn btn-primary w-100 rounded-pill py-2 fw-bold">ENVIAR EVENTO</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+            
+        </section>
 
     </main>
 
@@ -77,7 +202,7 @@
 
                 <!-- Imagem do Desenvolvedor -->
                 <div class="col-md-6 text-center">
-                    <img src="" alt="Imagem do Desenvolvedor" width="200rem">
+                    <img src="assets/img/img-desenvolvedor.jpeg" alt="Imagem do Desenvolvedor" width="200rem">
                 </div>
             </div>
         </div>
