@@ -1,0 +1,284 @@
+{
+  "destaques": [
+    {
+      "id": "1",
+      "titulo": "LAGOA DA PAMPULHA",
+      "descricaoCurta": "O encontro entre o concreto poético e a natureza maravilhosa!",
+      "descricaoCompleta": "A Lagoa da Pampulha é um dos cartões-postais mais icônicos de Belo Horizonte. Construída na década de 1940 por iniciativa do então prefeito Juscelino Kubitschek, o conjunto arquitetônico ao redor da lagoa reúne obras de Oscar Niemeyer e paisagismo de Burle Marx, sendo reconhecido como Patrimônio Mundial pela UNESCO. Um lugar perfeito para caminhadas, pedais e contemplação.",
+      "imagem": "../assets/img/lagoa-da-pampulha.jpg",
+      "categoria": "Natureza & Cultura",
+      "valor": "Gratuito",
+      "tags": [
+        "natureza",
+        "turismo",
+        "lagoa"
+      ],
+      "destaque": true,
+      "localizacao": "Lagoa da Pampulha, Belo Horizonte, MG",
+      "horario": "Aberto 24 horas"
+    },
+    {
+      "id": "2",
+      "titulo": "MINEIRÃO",
+      "descricaoCurta": "Sinta a energia de um dos maiores palcos do futebol mundial.",
+      "descricaoCompleta": "O Estádio Governador Magalhães Pinto, mais conhecido como Mineirão, é um dos maiores e mais tradicionais estádios do Brasil. Com capacidade para mais de 60 mil torcedores, já foi palco de momentos históricos do futebol nacional e internacional, incluindo jogos da Copa do Mundo de 2014. Além dos jogos, o estádio oferece visitas guiadas ao museu e às instalações.",
+      "imagem": "../assets/img/mineirao.jpg",
+      "categoria": "Esporte & Entretenimento",
+      "valor": "A partir de R$ 25,00",
+      "tags": [
+        "futebol",
+        "estádio",
+        "turismo",
+        "esporte"
+      ],
+      "destaque": true,
+      "localizacao": "Avenida Antônio Abrahão Caram, 1001, Belo Horizonte, MG",
+      "horario": "Seg a Dom: 9h às 17h (visitas guiadas)"
+    },
+    {
+      "id": "3",
+      "titulo": "PRAÇA DO PAPA",
+      "descricaoCurta": "Venha desfrutar de um dos finais de tarde mais mágicos de Minas.",
+      "descricaoCompleta": "A Praça Governador Israel Pinheiro, carinhosamente chamada de Praça do Papa, é famosa pela vista panorâmica deslumbrante da cidade de Belo Horizonte. O local ganhou este apelido após a visita do Papa João Paulo II em 1980. Com gramados amplos e uma localização privilegiada no bairro Serra, é o point favorito dos belo-horizontinos para apreciar o pôr do sol com vista para toda a cidade.",
+      "imagem": "../assets/img/praca-do-papa.jpg",
+      "categoria": "Lazer",
+      "valor": "Gratuito",
+      "tags": [
+        "pôr do sol",
+        "natureza",
+        "turismo"
+      ],
+      "destaque": true,
+      "localizacao": "Praça do Papa, Belo Horizonte, MG",
+      "horario": "Aberto 24 horas"
+    },
+    {
+      "id": "4",
+      "titulo": "MERCADO CENTRAL",
+      "descricaoCurta": "Sabores, cultura e tradição no coração de Belo Horizonte.",
+      "descricaoCompleta": "O Mercado Central de Belo Horizonte é um dos pontos turísticos mais tradicionais da capital mineira. Com centenas de lojas, o espaço reúne gastronomia típica, artesanato, doces, queijos, cachaças e produtos regionais. É considerado um dos melhores mercados municipais do Brasil e um verdadeiro símbolo da cultura mineira.",
+      "imagem": "../assets/img/mercado-central.jpg",
+      "categoria": "Gastronomia & Cultura",
+      "valor": "Gratuito",
+      "tags": [
+        "gastronomia",
+        "mercado",
+        "cultura",
+        "turismo"
+      ],
+      "destaque": true,
+      "localizacao": "Avenida Augusto de Lima, 744, Belo Horizonte, MG",
+      "horario": "Seg a Sáb: 8h às 18h | Dom: 8h às 13h"
+    }
+  ],
+  "eventos": [
+    {
+      "id": "1",
+      "titulo": "ALMIR SATER E GABRIEL SATER",
+      "descricaoCurta": "Uma noite especial de música caipira e pantaneira.",
+      "descricaoCompleta": "Uma noite inesquecível com pai e filho no palco! Almir Sater, um dos maiores nomes da música caipira e pantaneira do Brasil, se encontra com seu filho Gabriel Sater em um show repleto de emoção, viola e muito improviso. Uma celebração da música brasileira que vai tocar fundo no coração de todos os presentes.",
+      "imagem": "../assets/img/evento1.webp",
+      "categoria": "Musica Brasileira",
+      "valor": "A partir de R$ 80,00",
+      "tags": [
+        "show",
+        "mpb",
+        "viola",
+        "musica"
+      ],
+      "destaque": false,
+      "data": "15 de Agosto de 2026",
+      "horario": "21h",
+      "local": "Palácio das Artes - Avenida Afonso Pena, 1537, Belo Horizonte, MG",
+      "link": "https://bileto.sympla.com.br/event/116311/d/365843"
+    },
+    {
+      "id": "2",
+      "titulo": "BACO EXU DO BLUES",
+      "descricaoCurta": "Rap, poesia e cultura negra em uma noite intensa.",
+      "descricaoCompleta": "O rapper e cantor baiano Baco Exu do Blues chega a BH com toda a força do seu universo musical único. Misturando rap, r&b, blues e referências da cultura negra brasileira, Baco promete uma noite intensa, poética e dançante. Um dos artistas mais originais da nova geração da música brasileira em um show imperdível.",
+      "imagem": "../assets/img/evento2.webp",
+      "categoria": "Rap & R&B",
+      "valor": "A partir de R$ 60,00",
+      "tags": [
+        "rap",
+        "show",
+        "trap",
+        "musica"
+      ],
+      "destaque": false,
+      "data": "25 de Julho de 2026",
+      "horario": "22h",
+      "local": "Chevrolet Hall - Avenida Nossa Senhora do Carmo, 230, Belo Horizonte, MG",
+      "link": "https://bileto.sympla.com.br/event/116908/d/368141"
+    },
+    {
+      "id": "3",
+      "titulo": "CHICO CÉSAR E ZECA BALEIRO",
+      "descricaoCurta": "Uma noite de MPB, poesia e grandes clássicos.",
+      "descricaoCompleta": "Dois gigantes da MPB se encontram no palco para uma noite de muita poesia, humor e música de qualidade. Chico César e Zeca Baleiro, amigos de longa data, prometem um show cheio de cumplicidade, com sucessos autorais e releituras afetivas da música popular brasileira. Uma noite que será guardada na memória por muito tempo.",
+      "imagem": "../assets/img/evento3.webp",
+      "categoria": "MPB",
+      "valor": "A partir de R$ 70,00",
+      "tags": [
+        "mpb",
+        "show",
+        "musica brasileira",
+        "cultura"
+      ],
+      "destaque": false,
+      "data": "30 de Maio de 2026",
+      "horario": "21h",
+      "local": "Cine Theatro Brasil Vallourec - Avenida Amazonas, 315, Belo Horizonte, MG",
+      "link": "https://bileto.sympla.com.br/event/116176/d/365253"
+    },
+    {
+      "id": "4",
+      "titulo": "CIDADE DOS CARROS DMF - DETONAUTAS",
+      "descricaoCurta": "O maior encontro de carros da América Latina.",
+      "descricaoCompleta": "Se você respira o universo dos carros antigos, máquinas modificadas, rock de garagem e gastronomia de respeito, o seu lugar é aqui! O CIDADE DOS CARROS chega em BH pra acelerar corações e motores!",
+      "imagem": "../assets/img/evento4.jpg",
+      "categoria": "Carros & Rock Nacional",
+      "valor": "A partir de R$ 25,00",
+      "tags": [
+        "carros",
+        "show",
+        "rock nacional",
+        "gastronomia"
+      ],
+      "destaque": false,
+      "data": "21 de Junho de 2026",
+      "horario": "18h",
+      "local": "Cidade Administrativa de Minas Gerais - Rodovia Papa João Paulo II, 4001, Belo Horizonte, MG",
+      "link": "https://www.sympla.com.br/evento/cidade-dos-carros-dmf-detonautas/3407568"
+    },
+    {
+      "id": "5",
+      "titulo": "FESTIVAL SENSACIONAL! 2026",
+      "descricaoCurta": "Dois dias de música, cultura e experiências inesquecíveis em BH.",
+      "descricaoCompleta": "O Festival Sensacional! retorna a Belo Horizonte em uma edição histórica com dois dias de programação no Parque Ecológico da Pampulha. O evento reúne grandes nomes da música brasileira contemporânea, misturando pop, rap, reggae, MPB e cultura alternativa em uma experiência vibrante ao ar livre. Entre as atrações confirmadas estão Gilberto Gil, BaianaSystem, Marina Sena, Djonga, Pabllo Vittar, Gaby Amarantos e Gilsons.",
+      "imagem": "../assets/img/evento5.png",
+      "categoria": "Festival",
+      "valor": "A partir de R$ 140,00",
+      "tags": [
+        "festival",
+        "musica",
+        "show",
+        "cultura"
+      ],
+      "destaque": false,
+      "data": "08 e 09 de Agosto de 2026",
+      "horario": "13h às 23h",
+      "local": "Parque Ecológico da Pampulha - Avenida Otacílio Negrão de Lima, 7111, Belo Horizonte, MG",
+      "link": "https://www.sympla.com.br/evento/festival-sensacional-2026/3043855"
+    },
+    {
+      "id": "6",
+      "titulo": "ORQUESTRA OURO PRETO E PÉ DE SONHO",
+      "descricaoCurta": "espetáculo infantil que une a música de concerto à sensibilidade lúdica.",
+      "descricaoCompleta": "inovar já virou tradição na Orquestra Ouro Preto. É essa ousadia que leva a formação mineira a convidar sua plateia a escolher o repertório em um dia e, no outro, mergulhar no universo infantil, para crianças de todas as idades. E é justamente esse desfile de versatilidade que poderá ser conferido em um único fim de semana na programação do AngloGold Ashanti Music Fest, que ocupa o palco do Grande Teatro Cemig Palácio das Artes nos dias 6 e 7 de junho, sábado, às 20h, e domingo, às 11h e 17h.",
+      "imagem": "../assets/img/evento6.jpeg",
+      "categoria": "Orquestra",
+      "valor": "A partir de R$ 40,00",
+      "tags": [
+        "orquestra",
+        "musica",
+        "infantil"
+      ],
+      "destaque": false,
+      "data": "07 de Junho de 2026",
+      "horario": "11h e 17h",
+      "local": "Grande Teatro Cemig Palácio das Artes - Avenida Afonso Pena, 1537, Belo Horizonte, MG",
+      "link": "https://bileto.sympla.com.br/event/120432/d/387223"
+    },
+    {
+      "titulo": "Fabio Jr - Turnê 2026",
+      "descricaoCurta": "Venha aproveitar a turnê de um dos artistas mais amados do Brasil",
+      "descricaoCompleta": "Fabio Jr celebra sua trajetória com um repertório completo de sucesso. Venha aproveitar e cantar com uma turnê que está viajando pelo Brasil inteiro, venha celebrar uma carreira completa de sucessos e muita música boa. Fabio Jr te espera!",
+      "imagem": "https://i.ibb.co/tTCHgZCB/img-show-teste.jpg",
+      "categoria": "MPB",
+      "valor": "A partir de R$ 145,00",
+      "tags": [
+        "show",
+        "musica"
+      ],
+      "destaque": false,
+      "data": "1 de Agosto de 2026",
+      "horario": "21:00",
+      "local": "Avenida Nossa Sra. do Carmo,230, Belo Horizonte - Minas Gerais",
+      "link": "https://bileto.sympla.com.br/event/120873/d/386429?mp_rloc=Home&mp_rtil=Eventos%2Bmais%2Bcomprados%2Bnas%2Búltimas%2B24h",
+      "usuarioId": "PybI9YV-kq8",
+      "id": "9-SKRNy625c"
+    },
+    {
+      "titulo": "Simplesmente Roupa Nova",
+      "descricaoCurta": "Venha aproveitar uma noite incrível da música popular brasileira",
+      "descricaoCompleta": "Donos de uma trajetória aplaudida de pé, a banda Roupa Nova anuncia a turnê “Simplesmente Roupa Nova”, na capital mineira. Venha aproveitar música boa com muita nostalgia e alegria, uma das bandas mais queridas do Brasil.",
+      "imagem": "https://i.ibb.co/bgCM17t5/2ugqfpaqc7d5vfo38gr246r1e1l8pau0ri8q8llr9eda7bkbp1d48kc173s37ute056s15cua5mhjlep5r4vghgmg3kkejc0gqc7.jpg",
+      "categoria": "MPB",
+      "valor": "A partir de R$ 185,00",
+      "tags": [
+        "show",
+        "musica",
+        "turnê"
+      ],
+      "destaque": false,
+      "data": "22 de Agosto de 2026",
+      "horario": "21:00",
+      "local": "Avenida Nossa Sra. do Carmo,230, Belo Horizonte - Minas Gerais",
+      "link": "https://bileto.sympla.com.br/event/118140/d/373825?mp_rloc=Home&mp_rtil=Festas%2C%2Bshows%2Be%2Bfestivais",
+      "usuarioId": "PybI9YV-kq8",
+      "id": "WVO1e96fxPQ"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "nome": "Natureza & Cultura"
+    },
+    {
+      "id": "2",
+      "nome": "Esporte & Entretenimento"
+    },
+    {
+      "id": "3",
+      "nome": "Lazer"
+    },
+    {
+      "id": "4",
+      "nome": "Gastronomia & Cultura"
+    },
+    {
+      "id": "5",
+      "nome": "MPB"
+    },
+    {
+      "id": "6",
+      "nome": "Rap & R&B"
+    },
+    {
+      "id": "7",
+      "nome": "Festival"
+    },
+    {
+      "id": "8",
+      "nome": "Samba"
+    },
+    {
+      "id": "9",
+      "nome": "Musica Brasileira"
+    },
+    {
+      "id": "10",
+      "nome": "Carros & Rock Nacional"
+    },
+    {
+      "id": "11",
+      "nome": "Orquestra"
+    },
+    {
+      "id": "12",
+      "nome": "Tecnologia"
+    }
+  ]
+}
